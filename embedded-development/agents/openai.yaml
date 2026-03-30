@@ -1,0 +1,4 @@
+interface:
+  display_name: "Embedded Development"
+  short_description: "Develop MCU firmware, CubeMX configs, RTOS flows, and low-level drivers"
+  default_prompt: "Handle this as an embedded firmware task. Identify the MCU, toolchain, generated-code boundaries, timing and memory constraints, then use the repo's existing style to implement the change. For STM32CubeMX projects, treat the .ioc file as the source of truth for peripheral configuration and generated init ordering. For RTOS or low-level firmware work, keep ISRs short, use suitable synchronization, and call out timing, DMA, memory, or power tradeoffs when they matter."
