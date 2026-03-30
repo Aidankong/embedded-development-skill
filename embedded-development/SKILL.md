@@ -124,3 +124,7 @@ When making embedded changes, provide:
 - [references/rtos-patterns.md](references/rtos-patterns.md)
 - [references/memory-optimization.md](references/memory-optimization.md)
 - [references/power-optimization.md](references/power-optimization.md)
+
+## Legacy Mapping
+
+If older material or prior conversations refer to `stm32-cubemx`, treat that as the STM32CubeMX specialization of this skill. See [legacy/stm32-cubemx.md](legacy/stm32-cubemx.md).
